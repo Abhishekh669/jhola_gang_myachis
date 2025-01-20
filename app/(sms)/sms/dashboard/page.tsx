@@ -1,10 +1,10 @@
-import Link from 'next/link'
+import Dashboard from '@/components/features/dashboard/dashboard';
 import React from 'react'
 
 function page() {
   return (
     <div>
-      <Link href="/auth/login">login</Link>
+      <Dashboard />
     </div>
   )
 }
