@@ -35,7 +35,7 @@ export function NavMain({
   const pathname = usePathname();
   return (
     <SidebarGroup>
-    <SidebarGroupLabel>Platform</SidebarGroupLabel>
+    <SidebarGroupLabel>Features : </SidebarGroupLabel>
     <SidebarMenu>
       {items.map((item) => (
         

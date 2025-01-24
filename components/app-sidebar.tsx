@@ -6,6 +6,7 @@ import {
   BookOpen,
   GalleryVerticalEnd,
   LayoutDashboardIcon,
+  ListTodo,
   Settings2,
   UserRoundCheck,
   Users,
@@ -64,10 +65,17 @@ const data = {
       
     },
     {
+      title: "Todo",
+      url: "todo",
+      icon: ListTodo,
+      
+    },
+    {
       title: "Settings",
       url: "#",
       icon: Settings2,
     },
+   
   ],
  
 }

@@ -11,15 +11,9 @@ import { Button } from "@/components/ui/button"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { do_social_login } from "@/actions/auth/auth"
+import { formSchema } from "@/schemas"
 
-const formSchema = z.object({
-  email: z.string().email({
-    message: "Please enter a valid email address.",
-  }),
-  password: z.string().min(1, {
-    message: "Password must be at 1 characters long.",
-  }),
-})
+
 
 export default function LoginPage() {
   const [isLoading, setIsLoading] = useState(false)
